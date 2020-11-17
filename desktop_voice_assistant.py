@@ -57,8 +57,8 @@ def sendEmail(to, content):
 	server.starttls() 
 	
 	# Enable low security in gmail 
-	server.login('anushasuraparaju18', 'Anusha156@') 
-	server.sendmail('anushasuraparaju18@gmail.com', to, content) 
+	server.login('****************', '*********') 
+	server.sendmail('*****************', to, content) 
 	server.close()
 if __name__ == '__main__': 
 	clear = lambda: os.system('cls') 
